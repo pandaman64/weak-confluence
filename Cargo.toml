@@ -1,5 +1,5 @@
 [package]
-name = "weak-convergence"
+name = "weak-confluence"
 version = "0.1.0"
 authors = ["pandaman64 <kointosudesuyo@infoseek.jp>"]
 
