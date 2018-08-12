@@ -107,7 +107,7 @@ fn main() {
         let r_star = closure(&r);
 
         if weak_confluence(&r, &r_star) {
-            // R is confluent <-> R* is diamond 
+            // R is confluent <-> R* is diamond
             if !diamond(&r_star) {
                 println!("-------------------");
                 print_relation(&r);
